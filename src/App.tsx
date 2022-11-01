@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <div className='content'>
         <div style={{ textAlign: 'right', paddingBottom: 20 }}>
-          <Radio.Group defaultValue="card" onChange={(e: { target: { value: SetStateAction<string> } }) => setBtnValue(e.target.value)}>
+          <Radio.Group defaultValue="card" onChange={(e: any) => setBtnValue(e.target.value)}>
             <Radio.Button value="card">卡片</Radio.Button>
             <Radio.Button value="list">列表</Radio.Button>
           </Radio.Group>
