@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 416px;
+  height: 68px;
+  border-radius: 12px;
+  background: pink;
+  margin: 10px;
+}
+
+.buy {
+  width: 84px;
+  height: 46px;
+  line-height: 46px;
+  background: #F00;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
